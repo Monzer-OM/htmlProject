@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Web Page</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(to right, #000000, #ffd700);
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            color: #fff;
+        }
+
+        #header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        #main-content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        #background-img {
+            width: 100%;
+            max-width: 800px;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+        }
+
+        #buttons {
+            margin-top: 20px;
+            display: flex;
+            justify-content: space-between;
+            width: 300px;
+        }
+
+        .button {
+            background-color: #fff;
+            color: #000000;
+            border: none;
+            padding: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+
+        .button:hover {
+            background-color: #000000;
+            color: #ffd700;
+        }
+
+        .icon {
+            margin-right: 5px;
+            width: 20px; /* Adjust the width as needed */
+            height: 20px; /* Adjust the height as needed */
+        }
+    </style>
+</head>
+<body>
+    <div id="header">
+        <h1></h1>
+    </div>
+
+    <div id="main-content">
+        <img id="background-img" src="logo-c.png" alt="Beautiful Background Image">
+
+        <div id="buttons">
+            <a href="https://www.google.com/maps/place/Ercan+Steakhouse/@41.0882977,28.8000477,17z/data=!3m1!4b1!4m6!3m5!1s0x14caaf7aaf63eeb5:0xae344852d0258399!8m2!3d41.0882937!4d28.8026226!16s%2Fg%2F11bxjp4f05?entry=ttu" class="button" target="_blank">
+                <img src="png-transparent-google-map-location-logo-icon.png" alt="Google Maps Icon" class="icon">
+                Google Maps
+            </a>
+            <a href="https://qr.ercanburger.com/menu/tr/subeler/tum/menu-gel-al.php" class="button" target="_blank">
+                <img src="menu.png
+                " alt="Digital Menu Icon" class="icon">
+                Digital Menu
+            </a>
+        </div>
+    </div>
+</body>
+
+</html>
